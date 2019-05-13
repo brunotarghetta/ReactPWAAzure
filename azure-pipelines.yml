@@ -34,5 +34,4 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     ArtifactName: 'drop'
-    publishLocation: 'FilePath'
-    TargetPath: '$(Build.ArtifactStagingDirectory)/ReactApp.zip'
+    publishLocation: 'Container'
